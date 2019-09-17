@@ -14,6 +14,7 @@ public class Jacket extends ClothesDecorator {
 
     @Override
     public Double cost() {
+
         return person.cost()+50;
     }
 
